@@ -50,7 +50,7 @@ print(head->children[i],c);
 
 }else{
 
-//if(head->count) printf(" %s \t %ld \n",head->word,head->count);
+
 int i;
 for(i=0 ;i<NUM_LETTERS;i++){
 if(head->children[i]==NULL) continue;
